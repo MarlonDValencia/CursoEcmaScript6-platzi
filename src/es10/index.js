@@ -7,3 +7,14 @@ console.log(array.flatMap(value => [value, value * 2]));
 let hello = "                  Hello   "
 console.log(hello);
 console.log(hello.trimStart());
+
+let entries = [
+    ["name", "oscar"],
+    ["age", 32]
+];
+
+console.log(Object.fromEntries(entries));
+
+let mySymbol = `My Symbol`;
+let symbol = Symbol(mySymbol);
+console.log(symbol.description);

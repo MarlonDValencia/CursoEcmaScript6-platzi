@@ -8,6 +8,7 @@ const obj1 = {
     ...obj,
     carrer: "Engineer"
 }
+
 let { name, ...all } = obj;
 console.log(name, all);
 console.log(obj1);

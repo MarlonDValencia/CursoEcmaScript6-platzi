@@ -4,3 +4,5 @@ if (numbers.includes(7)) {
 } else {
     console.log("No hay 7");
 }
+const b = "a"
+const b = "b"
